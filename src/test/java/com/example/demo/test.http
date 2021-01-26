@@ -1,0 +1,18 @@
+POST http://localhost:7070/api/v1/student
+Content-Type: application/json
+
+{
+    "name": "Bilal",
+    "email":"bilal.ahmed@gmail.com",
+    "dateOfBirth": "1995-12-17"
+}
+
+
+###
+DELETE http://localhost:7070/api/v1/student/1
+
+
+###
+PUT http://localhost:7070/api/v1/student/1?name=Maria&email=maria@gmail.com
+Content-Type: application/json
+
